@@ -1,0 +1,15 @@
+h1 {
+	color: #0094ff;
+}
+
+html, body, #app, .el-container {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+.alignToCenter {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
