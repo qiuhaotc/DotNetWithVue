@@ -8,7 +8,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 module.exports = (env) => {
 
     return {
-        entry: "./ClientApp/index.js",
+        entry: "./index.js",
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: 'main.bundle.[contenthash:8].js'
@@ -59,11 +59,11 @@ module.exports = (env) => {
                 // 配置title属性
                 title: "Vue Pages",
                 // Template
-                template: "./ClientApp/index.html",
+                template: "./index.html",
                 // js插入的位置，true/'head'/'body'/false
                 inject: 'body',
                 // favicon position
-                favicon: './ClientApp/images/favicon.ico',
+                favicon: './images/favicon.ico',
                 minify: false,
             }),
             // Vue page file load plugin
