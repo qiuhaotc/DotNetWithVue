@@ -23,7 +23,7 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build build src/DotNetWithVue.sln --configuration Release
+        run: dotnet build src/DotNetWithVue.sln --configuration Release
 
       - name: dotnet publish
         run: dotnet publish src/DotNetWithVue.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
