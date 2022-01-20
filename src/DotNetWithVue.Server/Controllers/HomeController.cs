@@ -3,7 +3,7 @@
 namespace DotNetWithVue.Server.Controllers
 {
 	[ApiController]
-	[Route("[controller]")]
+	[Route("api/[controller]")]
 	public class HomeController : ControllerBase
 	{
 		readonly ILogger<HomeController> logger;

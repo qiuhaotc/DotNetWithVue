@@ -25,7 +25,7 @@ module.exports = (env) => {
                     target: 'https://localhost:7116',
                     changeOrigin: true,
                     logLevel: 'debug',
-                    pathRewrite: { '^/api': '' },
+                    // pathRewrite: { '^/api': '' },
                     secure: false,
                 },
             },
