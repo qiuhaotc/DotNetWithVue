@@ -20,6 +20,15 @@ module.exports = (env) => {
             },
             compress: true,
             port: 8080,
+            proxy: {
+                '/api': {
+                    target: 'https://localhost:7116',
+                    changeOrigin: true,
+                    logLevel: 'debug',
+                    pathRewrite: { '^/api': '' },
+                    secure: false,
+                },
+            },
         },
         resolve: {
             extensions: ['*', '.js', '.vue', '.wasm', '.json', '.tsx', '.ts'],

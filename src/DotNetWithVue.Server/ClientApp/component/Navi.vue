@@ -34,6 +34,7 @@ import Page1 from "../component/Page1";
 import LearnVueStart from "../component/LearnVueStart";
 import LearnStep2 from "../component/LearnStep2";
 import LearnComponent from "../component/LearnComponent";
+import CallApiPage from "../Pages/CallApi";
 import VueRouter from "vue-router";
 
 // 0. 如果使用模块化机制编程，导入Vue和VueRouter，要调用 Vue.use(VueRouter)
@@ -57,6 +58,7 @@ const routes = [
     Name: "LearnComponent",
   },
   { path: "/Page1/:id", component: Page1, Name: "Page1" },
+  { path: "/CallApiPage", component: CallApiPage, Name: "Call Api Page" },
 ];
 
 // 3. 创建 router 实例，然后传 `routes` 配置
