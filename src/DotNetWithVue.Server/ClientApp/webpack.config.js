@@ -56,6 +56,10 @@ module.exports = (env) => {
                     use: 'ts-loader',
                     exclude: /node_modules/,
                 },
+                {
+                    test: /\.(png|jpe?g|gif|svg)$/,
+                    use: 'file-loader',
+                }
             ]
         },
         optimization: {

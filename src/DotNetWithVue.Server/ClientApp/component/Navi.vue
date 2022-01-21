@@ -36,11 +36,13 @@ import LearnStep2 from "../component/LearnStep2";
 import LearnComponent from "../component/LearnComponent";
 import CallApiPage from "../Pages/CallApi";
 import VueRouter from "vue-router";
+import img from "../images/rocket.svg";
 
 // 0. 如果使用模块化机制编程，导入Vue和VueRouter，要调用 Vue.use(VueRouter)
 // 1. 定义 (路由) 组件。
 // 可以从其他文件 import 进来
-const Home = { template: "<div>home</div>" };
+
+const Home = { template: "<div><div>home</div><img src='" + img + "' style='height:100px'/></div>" };
 
 // 2. 定义路由
 // 每个路由应该映射一个组件。 其中"component" 可以是
