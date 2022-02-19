@@ -1,39 +1,40 @@
 {
-  "name": "dotnetwithvue",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --env production",
-    "dev": "webpack serve"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.24.0",
-    "element-ui": "^2.15.6",
-    "lodash": "^4.17.21",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.3",
-    "webpack": "^5.65.0"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
-    "@typescript-eslint/parser": "^5.10.0",
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.5.1",
-    "css-minimizer-webpack-plugin": "^3.3.1",
-    "eslint": "^8.7.0",
-    "eslint-plugin-vue": "^8.3.0",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.4.5",
-    "style-loader": "^3.3.1",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.4",
-    "vue-loader": "^15.9.8",
-    "vue-template-compiler": "^2.6.14",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0"
-  }
+	"name": "dotnetwithvue",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --env production",
+		"dev": "webpack serve"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"element-ui": "^2.15.6",
+		"lodash": "^4.17.21",
+		"vue": "^2.6.14",
+		"vue-router": "^3.5.3",
+		"webpack": "^5.65.0"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.10.0",
+		"@typescript-eslint/parser": "^5.10.0",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.5.1",
+		"css-minimizer-webpack-plugin": "^3.3.1",
+		"eslint": "^8.7.0",
+		"eslint-plugin-vue": "^8.3.0",
+		"file-loader": "^6.2.0",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.4.5",
+		"prettier": "^2.5.1",
+		"style-loader": "^3.3.1",
+		"ts-loader": "^9.2.6",
+		"typescript": "^4.5.4",
+		"vue-loader": "^15.9.8",
+		"vue-template-compiler": "^2.6.14",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.6.0"
+	}
 }

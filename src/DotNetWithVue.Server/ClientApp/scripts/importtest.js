@@ -5,10 +5,10 @@ var b = 4;
 // import DDD from "../scripts/importtest";
 export default function () {
 	return {
-		A: a
-	}
+		A: a,
+	};
 }
 
 // Export specific value
 // import { b } from "../scripts/importtest";
-export { b }
+export { b };

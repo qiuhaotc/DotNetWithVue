@@ -18,5 +18,10 @@
         "vue",
         "@typescript-eslint"
     ],
-    "rules": {}
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ]
+    }
 }

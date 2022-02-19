@@ -1,0 +1,11 @@
+{
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // Set the default
+    "editor.formatOnSave": true,
+    "prettier.useTabs": true,
+    "eslint.workingDirectories": [
+        "${workspaceFolder}/DotNetWithVue.Server/ClientApp"
+    ],
+    "vetur.format.options.useTabs": true
+}
